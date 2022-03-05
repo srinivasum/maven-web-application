@@ -14,7 +14,7 @@
 
 	<organization>
 		<name>Mithun Software Solutions Pvt Ltd</name>
-		<url>http://mithuntechnologies.com/</url>
+		<url>http://Devopsdesk.com/</url>
 	</organization>
 
 	<properties>
@@ -91,12 +91,12 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <name>devops desk Releases Nexus Repository</name>
 	      <url>http://ec2-35-154-24-83.ap-south-1.compute.amazonaws.com:8081/repository/flipkart-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>devops desk Snapshot Nexus Repository </name>
 	      <url>http://ec2-35-154-24-83.ap-south-1.compute.amazonaws.com:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>

@@ -25,7 +25,7 @@ echo "JOB Name ${env.JOB_NAME}"
    
    stage('checkoutcodefromgithub'){
        
-      git branch: 'development', credentialsId: 'e93bf3fe-9b64-42dd-b45c-2da9cafeedf1', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git' 
+      git branch: 'development', credentialsId: 'e93bf3fe-9b64-42dd-b45c-2da9cafeedf1', url: 'https://github.com/blrdevopstraining/maven-web-application.git' 
    } 
     
     

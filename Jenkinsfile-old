@@ -1,4 +1,5 @@
 #!groovy
+
 properties([
     buildDiscarder(logRotator(numToKeepStr: '3')),
     pipelineTriggers([

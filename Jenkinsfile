@@ -13,7 +13,7 @@ node('flipkart-node')
   echo "Jenkins Home ${env.JENKINS_HOME}"
   echo "Jenkins URL ${env.JENKINS_URL}"
 echo "JOB Name ${env.JOB_NAME}"
-   def mvnHome = tool name: 'maven3.6.5', type: 'maven'
+   def mvnHome = tool name: 'maven3.8.5', type: 'maven'
    
      properties([
        buildDiscarder(logRotator(numToKeepStr: '5')),
